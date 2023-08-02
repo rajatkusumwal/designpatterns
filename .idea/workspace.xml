@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93059fa4-26dc-4efb-a913-eca336bba3c9" name="Changes" comment="Initial commit">
+    <list default="true" id="93059fa4-26dc-4efb-a913-eca336bba3c9" name="Changes" comment="adding adapter and facade patterns">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/data/inn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/data/inn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/adapter/AdapterPatternMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/adapter/domain/AustralianTurkey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/adapter/domain/Duck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/adapter/domain/DuckAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/adapter/domain/Turkey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/fascade/FacadePatternMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/fascade/HomeTheaterFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/fascade/domain/AirCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/fascade/domain/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/adapterandfacadepattern/fascade/domain/Popcorn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/CommandPatternMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/command/LightOffCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/command/LightOnCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/command/MacroCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/command/NoCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/domain/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/domain/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designpatterns/com/data/inn/commandpattern/remote/Remote.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690808116119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding adapter and facade patterns">
+      <created>1690974725453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690974725453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding adapter and facade patterns">
+      <created>1690974822951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690974822951</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="adding adapter and facade patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding adapter and facade patterns" />
   </component>
 </project>
