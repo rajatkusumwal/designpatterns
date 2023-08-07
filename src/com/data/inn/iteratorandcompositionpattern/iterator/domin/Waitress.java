@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 
 //Client
-// Can on only iterate and has no idea about the storage of the objects.
+//Iterate and has no idea about the storage of the objects.
 public class Waitress {
 
     List<Menu> menus = new ArrayList<>();
