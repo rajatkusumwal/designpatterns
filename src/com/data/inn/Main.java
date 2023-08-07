@@ -3,6 +3,7 @@ package com.data.inn;
 
 import com.data.inn.adapterandfacadepattern.adapter.AdapterPatternMain;
 import com.data.inn.adapterandfacadepattern.fascade.FacadePatternMain;
+import com.data.inn.iteratorandcompositionpattern.iterator.IteratorPatternMain;
 import com.data.inn.templatepattern.TemplatePatternMain;
 
 public class Main {
@@ -17,8 +18,11 @@ public class Main {
 //        FacadePatternMain facadePatternMain = new FacadePatternMain();
 //        facadePatternMain.run();
 
-        TemplatePatternMain templatePatternMain = new TemplatePatternMain();
-        templatePatternMain.run();
+//        TemplatePatternMain templatePatternMain = new TemplatePatternMain();
+//        templatePatternMain.run();
+
+        IteratorPatternMain iteratorPatternMain = new IteratorPatternMain();
+        iteratorPatternMain.run();
 
     }
 }
