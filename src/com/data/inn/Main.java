@@ -5,6 +5,7 @@ import com.data.inn.adapterandfacadepattern.adapter.AdapterPatternMain;
 import com.data.inn.adapterandfacadepattern.fascade.FacadePatternMain;
 import com.data.inn.iteratorandcompositionpattern.composition.CompositePatternMain;
 import com.data.inn.iteratorandcompositionpattern.iterator.IteratorPatternMain;
+import com.data.inn.statepattern.StatePatternMain;
 import com.data.inn.templatepattern.TemplatePatternMain;
 
 public class Main {
@@ -25,7 +26,10 @@ public class Main {
 //        IteratorPatternMain iteratorPatternMain = new IteratorPatternMain();
 //        iteratorPatternMain.run();
 
-        CompositePatternMain compositePatternMain = new CompositePatternMain();
-        compositePatternMain.run();
+//        CompositePatternMain compositePatternMain = new CompositePatternMain();
+//        compositePatternMain.run();
+
+        StatePatternMain statePatternMain = new StatePatternMain();
+        statePatternMain.run();
     }
 }
