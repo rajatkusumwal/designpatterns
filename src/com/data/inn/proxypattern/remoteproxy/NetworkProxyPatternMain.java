@@ -7,7 +7,7 @@ import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 
-public class ProxyPatternMain {
+public class NetworkProxyPatternMain {
 
     public void run(){
 

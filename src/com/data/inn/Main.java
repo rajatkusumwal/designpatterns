@@ -1,13 +1,7 @@
 package com.data.inn;
 
 
-import com.data.inn.adapterandfacadepattern.adapter.AdapterPatternMain;
-import com.data.inn.adapterandfacadepattern.fascade.FacadePatternMain;
-import com.data.inn.iteratorandcompositionpattern.composition.CompositePatternMain;
-import com.data.inn.iteratorandcompositionpattern.iterator.IteratorPatternMain;
-import com.data.inn.proxypattern.remoteproxy.ProxyPatternMain;
-import com.data.inn.statepattern.StatePatternMain;
-import com.data.inn.templatepattern.TemplatePatternMain;
+import com.data.inn.proxypattern.remoteproxy.NetworkProxyPatternMain;
 
 public class Main {
 
@@ -34,7 +28,7 @@ public class Main {
 //        statePatternMain.run();
 
 //        Network Proxy
-        ProxyPatternMain proxyPatternMain = new ProxyPatternMain();
-        proxyPatternMain.run();
+        NetworkProxyPatternMain networkProxyPatternMain = new NetworkProxyPatternMain();
+        networkProxyPatternMain.run();
     }
 }
