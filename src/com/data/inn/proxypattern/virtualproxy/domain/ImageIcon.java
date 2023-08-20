@@ -1,4 +1,4 @@
-package com.data.inn.proxypattern.virtualproxy;
+package com.data.inn.proxypattern.virtualproxy.domain;
 
 import java.net.URL;
 

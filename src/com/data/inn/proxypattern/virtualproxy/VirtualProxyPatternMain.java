@@ -1,5 +1,7 @@
 package com.data.inn.proxypattern.virtualproxy;
 
+import com.data.inn.proxypattern.virtualproxy.domain.ImageIconProxy;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 

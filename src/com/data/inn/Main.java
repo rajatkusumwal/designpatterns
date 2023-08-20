@@ -1,7 +1,7 @@
 package com.data.inn;
 
 
-import com.data.inn.proxypattern.virtualproxy.VirtualProxyPatternMain;
+import com.data.inn.proxypattern.accessproxy.AccessProxyMain;
 
 public class Main {
 
@@ -27,11 +27,13 @@ public class Main {
 //        StatePatternMain statePatternMain = new StatePatternMain();
 //        statePatternMain.run();
 
-//        Network Proxy
 //        NetworkProxyPatternMain networkProxyPatternMain = new NetworkProxyPatternMain();
 //        networkProxyPatternMain.run();
 
-        VirtualProxyPatternMain virtualProxyPatternMain = new VirtualProxyPatternMain();
-        virtualProxyPatternMain.run();
+//        VirtualProxyPatternMain virtualProxyPatternMain = new VirtualProxyPatternMain();
+//        virtualProxyPatternMain.run();
+
+        AccessProxyMain accessProxyMain = new AccessProxyMain();
+        accessProxyMain.run();
     }
 }
