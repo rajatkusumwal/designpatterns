@@ -4,13 +4,15 @@ import java.net.URL;
 
 public class ImageIconProxy implements Icon {
 
-    // Ensure value is always read and written to main memory rather than thread level cache.
+    // To ensure consistency while reading.
+    // Value is always read and written to main memory rather than thread level cache.
     // Making it consistent across all the threads that are accessing it.
     // Note: It does not ensure atomicity.
     volatile ImageIcon imageIcon;
     URL imageUrl;
     boolean retrieving;
 
+    // We use synchronize to protect write.
     public synchronized void setImageIcon(ImageIcon imageIcon) {
         this.imageIcon = imageIcon;
     }
