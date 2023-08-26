@@ -1,7 +1,7 @@
 package com.data.inn;
 
 
-import com.data.inn.proxypattern.accessproxy.AccessProxyMain;
+import com.data.inn.compoundpattern.CompoundPatternMain;
 
 public class Main {
 
@@ -33,7 +33,10 @@ public class Main {
 //        VirtualProxyPatternMain virtualProxyPatternMain = new VirtualProxyPatternMain();
 //        virtualProxyPatternMain.run();
 
-        AccessProxyMain accessProxyMain = new AccessProxyMain();
-        accessProxyMain.run();
+//        AccessProxyMain accessProxyMain = new AccessProxyMain();
+//        accessProxyMain.run();
+
+        CompoundPatternMain compoundPatternMain = new CompoundPatternMain();
+        compoundPatternMain.run();
     }
 }
