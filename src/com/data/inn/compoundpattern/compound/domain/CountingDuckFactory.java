@@ -1,4 +1,4 @@
-package com.data.inn.compoundpattern.domain;
+package com.data.inn.compoundpattern.compound.domain;
 
 // Adds the counting decorator factory
 public class CountingDuckFactory extends AbstractDuckFactory{

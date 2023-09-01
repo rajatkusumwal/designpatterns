@@ -1,7 +1,7 @@
 package com.data.inn;
 
 
-import com.data.inn.compoundpattern.CompoundPatternMain;
+import com.data.inn.compoundpattern.mvc.MvcPatternMain;
 
 public class Main {
 
@@ -36,7 +36,10 @@ public class Main {
 //        AccessProxyMain accessProxyMain = new AccessProxyMain();
 //        accessProxyMain.run();
 
-        CompoundPatternMain compoundPatternMain = new CompoundPatternMain();
-        compoundPatternMain.run();
+//        CompoundPatternMain compoundPatternMain = new CompoundPatternMain();
+//        compoundPatternMain.run();
+
+        MvcPatternMain mvcPatternMain = new MvcPatternMain();
+        mvcPatternMain.run();
     }
 }

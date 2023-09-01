@@ -1,4 +1,4 @@
-package com.data.inn.compoundpattern.domain;
+package com.data.inn.compoundpattern.compound.domain;
 
 // Adapter from goose to duck
 public class GooseAdapter implements Quackable{

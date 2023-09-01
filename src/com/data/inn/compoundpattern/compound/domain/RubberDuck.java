@@ -1,21 +1,21 @@
-package com.data.inn.compoundpattern.domain;
+package com.data.inn.compoundpattern.compound.domain;
 
-public class MallardDuck implements Quackable{
+public class RubberDuck implements Quackable{
 
     Observable observable;
 
-    public MallardDuck() {
+    public RubberDuck() {
         this.observable = new Observable(this);
     }
 
     @Override
     public void quack() {
-        System.out.println("Mallard Duck quacks");
+        System.out.println("Rubber duck quacked!!");
     }
 
     @Override
     public void registerObserver(Observer observer) {
-        observable.registerObserver( observer );
+        observable.registerObserver(observer);
     }
 
     @Override

@@ -1,9 +1,9 @@
-package com.data.inn.compoundpattern;
+package com.data.inn.compoundpattern.compound;
 
-import com.data.inn.compoundpattern.domain.AbstractDuckFactory;
-import com.data.inn.compoundpattern.domain.CountingDuckFactory;
-import com.data.inn.compoundpattern.domain.Flock;
-import com.data.inn.compoundpattern.domain.Quackologist;
+import com.data.inn.compoundpattern.compound.domain.AbstractDuckFactory;
+import com.data.inn.compoundpattern.compound.domain.CountingDuckFactory;
+import com.data.inn.compoundpattern.compound.domain.Flock;
+import com.data.inn.compoundpattern.compound.domain.Quackologist;
 
 public class CompoundPatternMain {
 
