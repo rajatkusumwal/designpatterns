@@ -1,7 +1,7 @@
 package com.data.inn;
 
 
-import com.data.inn.compoundpattern.mvc.MvcPatternMain;
+import com.data.inn.strategypattern.*;
 
 public class Main {
 
@@ -39,7 +39,10 @@ public class Main {
 //        CompoundPatternMain compoundPatternMain = new CompoundPatternMain();
 //        compoundPatternMain.run();
 
-        MvcPatternMain mvcPatternMain = new MvcPatternMain();
-        mvcPatternMain.run();
+//        MvcPatternMain mvcPatternMain = new MvcPatternMain();
+//        mvcPatternMain.run();
+
+        StrategyPatternMain strategyPatternMain = new StrategyPatternMain();
+        strategyPatternMain.run();
     }
 }
